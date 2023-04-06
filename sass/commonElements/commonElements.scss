@@ -1,6 +1,11 @@
 .header {
   font-size: 12px;
   font-weight: bold;
+  #navItem {
+    &:hover {
+      color: $link-hover;
+    }
+  }
 }
 
 .container00 {
@@ -19,7 +24,7 @@
 .logoPc {
   width: 240px;
   margin-left: -10px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 #button {
@@ -46,5 +51,15 @@
 
   .copyOBC {
     color: $copy-color;
+  }
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
   }
 }
