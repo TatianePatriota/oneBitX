@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@400;500&display=swap");
 body {
   color: white;
 }
@@ -113,6 +113,96 @@ body {
     width: auto;
     font-size: 25px;
   }
+}
+.container00.container05 {
+  background-image: url(../../assets/images/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../assets/images/falcon9/02.jpg);
+}
+.container00.container07 {
+  background-image: url(../../assets/images/falcon9/08.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../assets/images/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../assets/images/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../assets/images/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../assets/images/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../assets/images/falcon9/07.jpg);
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.numbers {
+  background-color: black;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 670px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  padding-top: 20%;
+  margin-left: 17%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 340px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.downloadDesc a:hover {
+  color: rgb(189, 111, 111);
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
