@@ -110,7 +110,7 @@
   }
   .falcon9Desc {
     font-size: 22px;
-    width: 450px;
+    width: auto;
   }
   #overViewPosition {
     width: 380px;
@@ -120,19 +120,12 @@
 }
 
 @media (max-width: 1024px) {
-  .numbers {
-    p {
-      font-size: 18px;
-    }
-  }
   .falcon9Desc {
     font-size: 22px;
     width: 450px;
   }
   #overViewPosition {
-    display: block;
-    width: 500px;
-    margin-left: 13%;
+    width: 360px;
     padding-top: 20%;
   }
 }
@@ -167,7 +160,8 @@
     height: 90vh;
     flex-direction: column;
     justify-content: center;
-    margin-left: auto;
+    margin-left: 8%;
+    width: 220px;
   }
   .titleOverView {
     font-size: 26px;
@@ -176,5 +170,11 @@
   .subTitleOvewView {
     font-size: 20px;
     font-weight: 300;
+  }
+
+  .table {
+    color: white;
+    font-size: 10px;
+    width: 250px;
   }
 }
