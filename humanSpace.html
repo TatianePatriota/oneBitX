@@ -10,6 +10,8 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./assets/images/favicon.png" />
     <title>Human Flight</title>
@@ -68,9 +70,9 @@
         data-aos="fade-down"
         data-aos-duration="1300"
       >
-        <h1>HUMAN SPACEFLIGHT</h1>
+        <h1 class="h1 titleHuman">HUMAN SPACEFLIGHT</h1>
 
-        <p>FAZENDO A VIDA MULTIPLANETÁRIA</p>
+        <p class="subTitleHuman">FAZENDO A VIDA MULTIPLANETÁRIA</p>
 
         <img
           src="/assets/images/home/arrowDown.gif"
@@ -79,8 +81,8 @@
         />
       </div>
     </div>
-    <div class="container-fluid text-center eartDesc">
-      <p data-aos="flip-right" data-aos-duration="1300">
+    <div class="container-fluid text-center earthDesc">
+      <p class="textDescEarth" data-aos="flip-right" data-aos-duration="1300">
         SpaceX também oferece voos cormeciais para orbita terrestre e lunar.
         Para começar a planejar a sua jornada, por favor contate-nos por
         <a href="#" target="_blank" class="emailObc">onebitcode@gmail.com</a>
@@ -119,7 +121,7 @@
     <div class="container-fluid container00 container11">
       <div
         class="containerRightContent"
-        data-aos="zoom-in-up"
+        data-aos="fade-down"
         data-aos-duration="600"
       >
         <p>MISSÃO</p>
@@ -193,5 +195,9 @@
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
